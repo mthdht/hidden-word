@@ -1,3 +1,51 @@
+/* ========== COLORS ============ */
+
+/* theme: Color-theme */
+.ct-dark-blue, .ct-hover-dark-blue:hover {
+    background-color: #133046 !important;
+    color: #FFF !important;
+}
+
+.ct-text-dark-blue, .ct-hover-text-dark-blue:hover {
+    color: #133046 !important;
+}
+
+.ct-blue, .ct-hover-blue:hover {
+    background-color: #15959F !important;
+    color: #FFF !important;
+}
+
+.ct-text-blue, .ct-hover-text-blue:hover {
+    color: #15959F !important;
+}
+
+.ct-camel-light {
+    background-color: #F1E4B3 !important;
+}
+
+.ct-text-camel-light {
+    color: #F1E4B3 !important;
+}
+
+.ct-pink, .ct-hover-pink:hover {
+    background-color: #EC9770 !important;
+    color: #FFFFFF !important;
+}
+
+.ct-text-pink, .ct-hover-text-pink:hover {
+    color: #EC9770 !important;
+}
+
+.ct-red, .ct-hover-red:hover {
+    background-color: #C7402D !important;
+    color: #FFFFFF !important;
+}
+
+.ct-text-red, .ct-hover-text-red:hover {
+    color: #C7402D !important;
+}
+
+
 .nav {
     display: flex;
     align-items: center;

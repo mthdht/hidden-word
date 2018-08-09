@@ -4,8 +4,6 @@ import Header from './Header'
 import Board from './Board'
 import Scores from './Scores'
 import Ranking from './Ranking'
-import ReactDOM from "react-dom";
-import registerServiceWorker from './registerServiceWorker';
 
 class App extends Component {
     constructor(props) {
@@ -22,7 +20,7 @@ class App extends Component {
     renderScores() {
         // this use my portfolio api: see matthieu-dehondt.fr
 
-        axios.get('/jeu/hidden-word/user-scores')
+        /*axios.get('/jeu/hidden-word/user-scores')
             .then((response) => {
                 this.setState({
                     userScores: response.data
@@ -31,13 +29,13 @@ class App extends Component {
             })
             .catch(function (error) {
                 console.log(error);
-            });
+            });*/
     }
 
     renderRanking() {
         // this use my portfolio api: see matthieu-dehondt.fr
 
-        axios.get('/jeu/hidden-word/ranking')
+        /*axios.get('/jeu/hidden-word/ranking')
             .then((response) => {
                 this.setState({
                     ranking: response.data
@@ -46,7 +44,7 @@ class App extends Component {
             })
             .catch(function (error) {
                 console.log(error);
-            });
+            });*/
     }
 
     render() {

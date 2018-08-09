@@ -8,7 +8,7 @@ class Keyboard extends Component {
     render() {
         const lettersButtons = [];
 
-        letters.map((letter, index) => {
+        letters.forEach((letter, index) => {
            lettersButtons.push(<Button letter={letter} key={index} chooseLetter={this.props.chooseLetter} status={this.props.getStatus(letter)}/>);
         });
 

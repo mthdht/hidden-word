@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Scores extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     close() {
         document.getElementById('scores-modal').style.display='none';

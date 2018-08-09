@@ -19,9 +19,9 @@ class Header extends Component {
                     <div className="w3-sidebar sidebar w3-bar-block w3-border-right w3-text-white ct-blue" id="mySidebar">
                         <button onClick={this.close}
                                 className="w3-bar-item w3-button w3-large w3-text-white">Close &times;</button>
-                        <a href="#" className="w3-bar-item w3-button" onClick={this.props.renderScores}>Scores</a>
-                        <a href="#" className="w3-bar-item w3-button" onClick={this.props.renderRanking}>Classement</a>
-                        <a href="#" className="w3-bar-item w3-button">Règles</a>
+                        {/*<button className="w3-bar-item w3-button" onClick={this.props.renderScores}>Scores</button>
+                        <button className="w3-bar-item w3-button" onClick={this.props.renderRanking}>Classement</button>*/}
+                        <a href={"https://fr.wikipedia.org/wiki/Le_Pendu_(jeu)"} className="w3-bar-item w3-button">Règles</a>
                     </div>
 
                     <div className="w3-content w3-center nav">
@@ -38,9 +38,9 @@ class Header extends Component {
                         </a>
 
                         <div className="w3-right w3-padding-16 w3-hide-small">
-                            <button className="w3-bar-item w3-large ct-hover-dark-blue ct-blue" onClick={this.props.renderScores}><b>Scores</b></button>
-                            <button className="w3-bar-item w3-large ct-hover-dark-blue ct-blue" onClick={this.props.renderRanking}><b>Classement</b></button>
-                            <button className="w3-bar-item w3-large ct-hover-dark-blue ct-blue"><b>Règles</b></button>
+                            {/*<button className="w3-bar-item w3-large ct-hover-dark-blue ct-blue" onClick={this.props.renderScores}><b>Scores</b></button>
+                            <button className="w3-bar-item w3-large ct-hover-dark-blue ct-blue" onClick={this.props.renderRanking}><b>Classement</b></button>*/}
+                            <a href={"https://fr.wikipedia.org/wiki/Le_Pendu_(jeu)"} className="w3-bar-item w3-large ct-hover-dark-blue ct-blue"><b>Règles</b></a>
                         </div>
                     </div>
                 </nav>

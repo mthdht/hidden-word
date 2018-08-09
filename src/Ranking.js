@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class Ranking extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     close() {
         document.getElementById('ranking-modal').style.display='none';

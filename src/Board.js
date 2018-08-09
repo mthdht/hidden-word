@@ -46,7 +46,10 @@ class Board extends Component {
             setTimeout(() => {
                 if (this.state.hiddenWord === this.state.word) {
                     alert("you win ! Your score is " + ((26 - this.state.errors) * word.length));
-                    axios.post('/jeu/hidden-word/add', {
+
+                    // this use my portfolio api: see matthieu-dehondt.fr
+
+                    /*axios.post('/jeu/hidden-word/add', {
                         score: (26 - this.state.errors) * word.length,
                         errors: this.state.errors,
                         difficulty: "facile"
@@ -54,7 +57,7 @@ class Board extends Component {
                         return (response.data);
                     }).catch(function (error) {
                         console.log(error);
-                    });
+                    });*/
                 }
             }, 500);
         } else {
